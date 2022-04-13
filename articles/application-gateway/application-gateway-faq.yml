@@ -110,7 +110,7 @@ sections:
           
       - question: How long does it take to deploy an application gateway? Will my application gateway work while it's being updated?
         answer: |
-          New Application Gateway v1 SKU deployments can take up to 20 minutes to provision. Changes to instance size or count aren't disruptive, and the gateway remains active during this time.
+          New Application Gateway v1 SKU deployments can take up to 20 minutes to provision, and other changes to the v1 SKU can average up to 45 minutes, even longer than that at times. Changes to instance size or count aren't disruptive, and the gateway remains active during this time.
           
           Most deployments that use the v2 SKU take around 6 minutes to provision. However it can take longer depending on the type of deployment. For example, deployments across multiple Availability Zones with many instances can take more than 6 minutes. 
           
